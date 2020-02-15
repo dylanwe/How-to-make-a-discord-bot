@@ -1,11 +1,11 @@
-# How to make a discord-bot
+# 📝 How to make a discord-bot
 In this article, we are going to be learning how to create a simple discord bot with Node.js. This bot will make send a reply to the command !ping, the reply will be pong. This is a very basic and simple program but it will help you understand how to make a bot and let it reply to messages.
 
-## Prerequisites
+## 👨‍🏫 Prerequisites
 * Discord
 * Basic knowledge of JavaScript and programming.
 
-## Setup and Installation
+## 💾 Setup and Installation
 To start things off we're going to be creating a new bot at the [Discord developer portal](https://discordapp.com/login?redirect_to=%2Fdevelopers%2Fapplications%2F). Once there you'll have to click on New Application in the top right corner. This will open up an input field. In this field, here you can fill in the name of your bot. I will put in ping-pong.
 ![devportal](img/devportal.png "devportal")
 Having done that you can now go to the navigation on the left and click on Bot and then Add Bot. A pop up will shop up with the title Add a Bot to this App? and press Yes, do it!. If you did it correctly you should be seeing something like this.
@@ -18,7 +18,7 @@ We are going to be starting with installing Node.js. Press the recommended for m
 ![node](img/node.png "node")
 For [Visual Studio Code](https://code.visualstudio.com/) it will be the same just press the download for windows or mac button, run the installation file and follow the instructions.
 ![vscode](img/vscode.png "vscode")
-## Programming the Bot
+## 👨‍💻 Programming the Bot
 Create a folder on your desktop in my case I'm calling it bot. Open up your text editor, in our case, that's Visual Studio Code. In the menu bar on the top, you'll be seeing the file, press that select open folder and browse through your desktop and select the bot folder. Having that opened we must create a file called index.js. Your Visual Studio Code should look like this. 
 ![vscode2](img/vscode2.png "vscode2")
 Great select the index.js because in that we are going to write some code that will store our bot token from earlier in a variable. Just copy your own token and place replace mine with it.
@@ -64,13 +64,13 @@ You can run this bot by typing the following command in the terminal.
 node .
 ```
 It won't be doing anything because we haven't invited the bot to any server yet.
-## Inviting the bot
+## 🏡 Inviting the bot
 Firstly we need to get the Bot id which is in the general information.
 ![devportal4](img/devportal4.png "devportal4")
 We are going to go to [this site](https://discordapi.com/permissions.html#3072) and giving the bot permission to read messages and send messages and enter the client id in below.
 ![permissions](img/permissions.png "permissions")
 Click on the link below the page and select what channel you want your bot to go in then click on authorize and you should see it appear in the Discord channel.
-## Finished
+## ✅ Finished
 Go into Visual Studio Code and type in the terminal the following:
 ```
 node .
