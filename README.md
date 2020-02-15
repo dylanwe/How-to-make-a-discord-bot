@@ -34,6 +34,7 @@ After that we will install the discord package by typing the following command i
 npm install discord.js --save
 ```
 Your folder structure should now look like this.
+
 ![vscode3](img/vscode3.png "vscode3")
 Now in the index.js, we are going to import discord.js and create a variable called bot and store the discord.client in that. Next we're going to make the bot login and your code should now look like this.
 ```javascript
