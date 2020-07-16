@@ -38,11 +38,11 @@ Great select the index.js because in that we are going to write some code that w
 const TOKEN = 'NjcyNzYzMDE5NzIxMzEwMjE4.XjQOVQ.jTR0CHvxEwHNdhbxjCkOKD0xnwc';
 ```
 Now press **ctrl+\`** or **cmd+\`** for mac this will bring up the terminal in that just type the following command in the terminal and press enter.
-```shell
+```
 npm init -y
 ```
 After that we will install the discord package by typing the following command in our terminal and pressing enter.
-```shell
+```
 npm install discord.js --save
 ```
 Your folder structure should now look like this.
